@@ -1,0 +1,26 @@
+{
+  "artifact": "signet-1.2.0-macos.zip",
+  "version": "1.2.0",
+  "source_tag": "v1.2.0",
+  "build_commit_sha": "2ac22065301e7a61835319098a7eaccdd58b0772",
+  "built_at": "2026-11-07T23:10:30Z",
+  "notarized": true,
+  "zip_sha256": "ac0a3b330c0a6eb7a23d0d788c12656c3209790137b5b42d40c08c9c7e18bb7b",
+  "unsigned_binary_sha256": {
+    "macos_signet": "36d2240c8f4bd7ac94fc91516cd0c4a038bf8cc16bd016f3ea8f054d3a90a78e",
+    "linux_helper": "b5ef81abe86f62d4165279e3ef9bf2cbc13de4edcadf204e9f34bd4889c0832b"
+  },
+  "toolchain": {
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+    "cargo": "cargo 1.99.1 (5f94df478 2026-08-27)",
+    "linux_builder_image": "rust@sha256:7e9e2d068a107a2adafd19930011178d14a78326053cd4c3a9f7ad3fd049557d",
+    "xcode": "Xcode 27.2 Build version 27B52",
+    "macos_sdk": "27.2",
+    "swiftc": "Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)"
+  },
+  "reproducibility_pins": {
+    "cargo_target_dir": "/private/tmp/signet-repro/target",
+    "toolchain_path": "/private/tmp/signet-repro/toolchain",
+    "note": "F-REPRO-R3: ld-prime derives LC_UUID from link-input paths; a verifier must build with BOTH pins at these exact locations (see Open-Source-Plan, Verification flow)"
+  }
+}
